@@ -1,0 +1,11 @@
+start cmd.exe /c python Scripts/server/server.py --port=9997 & Read-Host -Prompt "Press Enter to exit"
+powershell -command "Start-Sleep -s 2"
+start cmd.exe /c python Scripts/gm_server.py --gui & Read-Host -Prompt "Press Enter to exit"
+start cmd.exe /c python Scripts/gm_gui.py & Read-Host -Prompt "Press Enter to exit"
+powershell -command "Start-Sleep -s 2"
+start cmd.exe /c python Scripts/bot_server.py
+start cmd.exe /c python Scripts/bot_server.py & Read-Host -Prompt "Press Enter to exit"
+start cmd.exe /c python Scripts/bot_server.py & Read-Host -Prompt "Press Enter to exit"
+start cmd.exe /c python Scripts/bot_server.py & Read-Host -Prompt "Press Enter to exit"
+start cmd.exe /c python Scripts/bot_server.py & Read-Host -Prompt "Press Enter to exit"
+start cmd.exe /c python Scripts/bot_server.py & Read-Host -Prompt "Press Enter to exit"

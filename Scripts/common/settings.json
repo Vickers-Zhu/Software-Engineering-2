@@ -1,0 +1,11 @@
+{
+  "piece_sham_chance": 0.05,
+  "new_piece_freq": 8,
+  "initial_piece_count": 1,
+  "board_width": 10,
+  "task_area_length": 5,
+  "goal_area_length": 1,
+  "player_count_per_team": 3,
+  "goal_definition": 3,
+  "game_name": "championship"
+}
